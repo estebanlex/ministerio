@@ -26,9 +26,12 @@ class congregacion(models.Model):
 
 class Publicador(models.Model):
    id_pub = models.AutoField(max_length=5,primary_key=True,blank=True)
-   nombre_pub = models.CharField(max_length=40)
-   apellidop_pub = models.CharField(max_length=30)
-   apellidom_pub = models.CharField(max_length=30)	 
+   nombrep_pub = models.CharField(max_length=20)
+   nombres_pub = models.CharField(max_length=20)
+   apellidop_pub = models.CharField(max_length=20)
+   apellidom_pub = models.CharField(max_length=20)
+   
+   	 
 
 
 
