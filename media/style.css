@@ -1,0 +1,43 @@
+
+h1{
+      color: #FFGFFF;
+      font-family:Arial Black, Helvetica, sans-serif;
+      font-size:50px;
+    }
+body { background-color: #f7fbb2; 	}
+p,label{  font-family: Arial, Helvetica, sans-serif;	 }
+
+#bodyPan form h2 {
+    background: url("formtop.gif") no-repeat scroll 0 0 #F9F9F9;
+    color: #FFFFFF;
+    display: block;
+    font: 20px/39px "Impact",Georgia,Times New Roman,Times,serif;
+    height: 45px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    width: 310px;
+}
+
+#bodyPan form {
+    background: url("formarea.jpg") no-repeat scroll 0 100% transparent;
+    height: 162px;
+    margin: 150px 500px 0;
+    padding: 0;
+    width: 350px;
+}
+#bodyPan form input{
+     width:165px; 
+     height:18px; 
+     margin:0 0 10px 130px;
+}
+#bodyPan form input.paddingtop{margin-top:16px;}
+#bodyPan form input.button{
+	width:54px; 
+	height:25px; 
+	display:block; 
+	background:url(button.gif) 0 0 no-repeat #EBEBEB; 
+	border:none; color:#fff;  font:14px/25px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	text-transform:uppercase; margin:0 0 0 262px; text-align:center;
+}
+
+

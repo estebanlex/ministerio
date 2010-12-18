@@ -1,0 +1,29 @@
+<html>
+
+ <head>
+  <link rel="stylesheet" href="http://127.0.0.1:8000/media/style.css" type="text/css" media="screen" />  
+  <h1 align=center >Ministerio</h1>
+     
+   	
+  <title>{% block title %}{% endblock %}</title>
+ </head>
+    <body>
+	<div id="bodyPan">
+	
+	   <form action="" method="post">
+		<h2>Registro Usuario</h2>
+		<input type="text" class="paddingtop" value="Su Nombre" />
+		<input name="" type="text" value="Password" />
+		<input name="" type="submit" class="button" value="GO" />
+	   </form>
+        </div>     
+		  
+  {% block content %} {% endblock %}
+       {%block mira%}{%endblock%}
+		  
+     {% block form %} 
+     	
+     {% endblock%}
+  	
+     </body>   
+</html>  
