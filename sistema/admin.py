@@ -1,4 +1,4 @@
-from ministerio.sistema.models import congregacion
+from ministerio.sistema.models import congregacion ,Publicador
 from django.contrib import admin
 
 class congregacionAdmin(admin.ModelAdmin):
@@ -7,4 +7,9 @@ class congregacionAdmin(admin.ModelAdmin):
 #     ordering = ('nombre_cong')
 #     search_fields = ('nombre_cong')    
 	#pass
+class PublicadorAdmin(admin.ModelAdmin):
+     list_display = ('nombrep_pub', 'apellidop_pub','apellidom_pub')
+
+
 admin.site.register(congregacion,congregacionAdmin)
+admin.site.register(Publicador,PublicadorAdmin)
