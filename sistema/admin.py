@@ -8,8 +8,8 @@ class congregacionAdmin(admin.ModelAdmin):
 #     search_fields = ('nombre_cong')    
 	#pass
 class PublicadorAdmin(admin.ModelAdmin):
-     list_display = ('nombrep_pub', 'apellidop_pub','apellidom_pub')
-
-
+     list_display = ('nombrep_pub', 'apellidop_pub','apellidom_pub','id_cong_pub_fk')
+#     ordering = ('id_cong_pub_fk')
+#     search_fields = ('id_cong_pub_fk') 
 admin.site.register(congregacion,congregacionAdmin)
 admin.site.register(Publicador,PublicadorAdmin)
